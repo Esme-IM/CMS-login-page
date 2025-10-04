@@ -6,7 +6,7 @@
 * Description: Plugin to add Innermedia branding to the CMS login page
 * Author: Innermedia
 * GitHub Plugin URI: https://github.com/Esme-IM/CMS-login-page
-* Version: 1.1
+* Version: 1.2
 */
 
 
@@ -56,8 +56,7 @@ function my_login_head2() {
    		padding: 30px 20px 20px 20px;
     	background-color: rgba(255,255,255,0.3);
     	margin-top: 10px;
-	}
-		
+	}		
 	
 	body.login #login form {
     	background: transparent;
@@ -156,3 +155,4 @@ add_action( 'login_footer', 'custom_login_footer_message' );
 
 
 ?>
+
