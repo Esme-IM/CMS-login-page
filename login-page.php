@@ -5,6 +5,7 @@
 * Plugin URI: https://www.innermedia.co.uk
 * Description: Plugin to add Innermedia branding to the CMS login page
 * Author: Innermedia
+* GitHub Plugin URI: https://github.com/Esme-IM/CMS-login-page
 * Version: 1.1
 */
 
@@ -152,5 +153,6 @@ function custom_login_footer_message() {
 	}
 }
 add_action( 'login_footer', 'custom_login_footer_message' );
+
 
 ?>
