@@ -7,9 +7,8 @@
 * Author: Innermedia
 * GitHub Plugin URI: https://github.com/Esme-IM/cms-login-page
 * Primary Branch: main
-* Version: 1.6
+* Version: 1.7
 */
-
 
 add_action("login_head", "my_login_head2", 20);
 
@@ -155,4 +154,5 @@ function custom_login_footer_message() {
 add_action( 'login_footer', 'custom_login_footer_message' );
 
 ?>
+
 
